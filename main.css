@@ -3,32 +3,48 @@ div#container {
 }
 div#header {
     background-image: url(images/background.jpg);
-    background-size: 100%;
+    background-position: top;
+    background-position: relative;
+    background-position: center;
     background-repeat: no-repeat;
+    padding: .25rem;
 }
 h1 {
     text-align: center;
-    color: red;
+    color: white;
 }
-div#plans {
-    border: 2px solid blue;
+div#plans ul li{
+    list-style: none;
+    margin: 2rem;
+    position: center;
+}
+.center {
+    text-align: center;
 }
 .personal{
-    
+    float: left;
+    margin: 2rem 2rem 0 0;
 }
 .small_business {
-    
+    float: left;
+    margin: 2rem;
 }
 .enterprise {
-    
+    float: left;
+    margin: 2rem;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
 }
 div#summary {
-    border: 2px solid green;
-}
-.fl {
     
 }
-.fr {
+div.fl {
+    
+}
+div.fr {
     
 }
 div#footer {
@@ -36,4 +52,7 @@ div#footer {
 }
 p {
     color: white;
+}
+li {
+    
 }
