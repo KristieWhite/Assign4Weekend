@@ -2,14 +2,38 @@ div#container {
     
 }
 div#header {
-    
+    background-image: url(images/background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+h1 {
+    text-align: center;
+    color: red;
 }
 div#plans {
+    border: 2px solid blue;
+}
+.personal{
+    
+}
+.small_business {
+    
+}
+.enterprise {
     
 }
 div#summary {
+    border: 2px solid green;
+}
+.fl {
+    
+}
+.fr {
     
 }
 div#footer {
-    
+    background-color: black;
+}
+p {
+    color: white;
 }
