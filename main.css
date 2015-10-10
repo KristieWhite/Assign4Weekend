@@ -18,6 +18,7 @@ h1 {
     padding: 2.2rem;
 }
 div#plans {
+    position: relative;
     width:800px;
     margin:auto;
 }
@@ -70,22 +71,23 @@ div#plans ul li{
 }
 .personal{
     float: left;
-    margin: 2rem 2rem 0 0;
-    min-width: 25%;
-    margin-right: 0;
+    width: 225px;
+    margin-left: 13px;
 }
 .small_business {
+    position: absolute;
     float: left;
-    margin: 2rem;
-    min-width: 25%;
-    margin-left: 0;
-    margin-right: 0;
+    width: 225px;
+    margin-left: 248px;
 }
 .enterprise {
+    position: absolute;
     float: left;
-    margin: 2rem;
-    min-width: 25%; 
-    margin-left: 0;
+    width: 225px; 
+    margin-left: 482px;
+}
+.button {
+    border-radius: 4px;
 }
 .clearfix:after {
     content: "";
@@ -103,6 +105,9 @@ div.fl {
 div.fr {
     width: 46%;
     float: right;
+}
+.margCan {
+    margin-top: 2rem;
 }
 .clear {
     clear: both;
