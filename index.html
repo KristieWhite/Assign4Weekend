@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="normalize">
+     <link rel="stylesheet" href="normalize.css">
+     <link href='https://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="main.css">
     
     <title>Rate Plans</title>
@@ -16,34 +17,34 @@
        </div><!--closes div 'header'-->
         <div id="plans">
             <ul class="personal">
-               <li class="center">PERSONAL<br>$5<br>PER MONTH</li>
-                <li>Free setup</li>
-                <li>Custom sub-domain</li>
-                <li>Standard customer support</li>
-                <li>1B file storage</li>
-                <li>1 database</li>
-                <li>Unlimited bandwith</li>
-                <li>Choose</li>
+                <li class="plan5">PERSONAL<br><span class="lgFont">$5</span><br><span class="grayMonth">PER MONTH</span></li>
+                <li class="grayed">Free setup</li>
+                <li class="grayed">Custom sub-domain</li>
+                <li class="grayed">Standard customer support</li>
+                <li class="grayed">1B file storage</li>
+                <li class="grayed">1 database</li>
+                <li class="grayed">Unlimited bandwith</li>
+                <li class="buttonStyle"><input type="button" name="plan" value="Button"></li>
             </ul>
             <ul class="small_business">
-                <li class="center">SMALL BUSINESS<br>$25<br>PER MONTH</li>
-                <li>Free setup</li>
-                <li>Use your own domain</li>
-                <li>Standard customer support</li>
-                <li>10GB file storage</li>
-                <li>5 databases</li>
-                <li>Unlimited bandwidth</li>
-                <li>Choose</li>
+                <li class="plan25">SMALL BUSINESS<br><span class="lgFont">$25</span><br><span class="grayMonth">PER MONTH</span></li>
+                <li class="grayed">Free setup</li>
+                <li class="grayed">Use your own domain</li>
+                <li class="grayed">Standard customer support</li>
+                <li class="grayed">10GB file storage</li>
+                <li class="grayed">5 databases</li>
+                <li class="grayed">Unlimited bandwidth</li>
+                <li class="buttonStyle"><input type="button" name="plan" value="Button"></li>
             </ul>
             <ul class="enterprise">
-                <li class="center">ENTERPRISE<br>$45<br>PER MONTH</li>
-                <li>Free setup</li>
-                <li>Use your own domain</li>
-                <li>Premium customer support</li>
-                <li>Unlimited file storage</li>
-                <li>25 databases</li>
-                <li>Unlimited bandwidth</li>
-                <li>Choose</li>
+                <li class="plan45">ENTERPRISE<br><span class="lgFont">$45</span><br><span>PER MONTH</span></li>
+                <li class="grayed">Free setup</li>
+                <li class="grayed">Use your own domain</li>
+                <li class="grayed">Premium customer support</li>
+                <li class="grayed">Unlimited file storage</li>
+                <li class="grayed">25 databases</li>
+                <li class="grayed">Unlimited bandwidth</li>
+                <li class="buttonStyle myButton"><input type="button" name="plan" value="Button"></li>
             </ul>
         </div><!--closes div 'plans'-->
         <div class="clearfix"></div>
@@ -56,13 +57,14 @@
             </div><!--closes 'fl' div-->
             <div class="fr">
                 <h3>PAY MONTHLY OR ANNUALLY</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderir in vouptate velit esse.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderir in vouptate velit esse.</p><br>
                 <h3>CANCEL YOUR PLAN ANYTIME</h3>
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fagiat nulla pariatur. Exceptuer sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt molit anim id eset laborum.</p>
             </div><!--closes 'fr' div-->
         </div><!--closes div 'summary'-->
+        <p class="clear"></p>
         <div id="footer">
-            <p class="white">Try now for 14 days. No credit card required. Header image courtesy of Unsplash.</p>
+            <p class="white"><a href="#">Try now</a> for 14 days. No credit card required. Header image courtesy of <a href="#">Unsplash</a>.</p>
         </div><!--closes div 'footer'-->
     </div><!--closes div 'container'-->
 </body>

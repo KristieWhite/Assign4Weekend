@@ -1,37 +1,91 @@
+body {
+    font-family: font-family: 'Maven Pro', sans-serif;
+}
 div#container {
     
 }
 div#header {
     background-image: url(images/background.jpg);
-    background-position: top;
-    background-position: relative;
+    background-position: absolute;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     padding: .25rem;
 }
 h1 {
     text-align: center;
     color: white;
+    padding: 2.2rem;
+}
+div#plans {
+    width:800px;
+    margin:auto;
+}
+.lgFont {
+    font-size: 3rem;
 }
 div#plans ul li{
     list-style: none;
-    margin: 2rem;
     position: center;
 }
-.center {
+.plan5 {
     text-align: center;
+    color: white;
+    background-color: rgb(81, 146, 81);
+    padding: 1rem;
+}
+.plan25 {
+    text-align: center;
+    color: white;
+    background-color: rgb(45, 72, 133);
+    padding: 1rem;
+}
+.plan45 {
+    text-align: center;
+    color: white;
+    background-color: rgb(17, 17, 17);
+    padding: 1rem;
+}
+.grayMonth {
+    color:#ebe7e7;
+}
+.grayed {
+    background-color: rgb(247, 247, 247);
+    padding: .5rem;
+    text-align: center;
+    border-top: .5px solid;
+    border-bottom: 1px solid;
+    border-left: 1.5px solid;
+    border-right: 1.5px solid;
+    border-color: #ebe7e7;
+}
+.buttonStyle {
+    text-align: center;
+    padding: .5rem;
+    border-top: .5px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: #ebe7e7;
 }
 .personal{
     float: left;
     margin: 2rem 2rem 0 0;
+    min-width: 25%;
+    margin-right: 0;
 }
 .small_business {
     float: left;
     margin: 2rem;
+    min-width: 25%;
+    margin-left: 0;
+    margin-right: 0;
 }
 .enterprise {
     float: left;
     margin: 2rem;
+    min-width: 25%; 
+    margin-left: 0;
 }
 .clearfix:after {
     content: "";
@@ -39,20 +93,33 @@ div#plans ul li{
     clear: both;
 }
 div#summary {
-    
+    width: 700px;
+    margin: auto;
 }
 div.fl {
-    
+    width: 46%;
+    float: left;
 }
 div.fr {
-    
+    width: 46%;
+    float: right;
+}
+.clear {
+    clear: both;
+    height: 0;
+    margin: 0;
+    padding: 0;
 }
 div#footer {
     background-color: black;
 }
-p {
+#footer p{
     color: white;
+    font-size: .25rem;
+    text-align: center;
+    padding: .5rem;
 }
-li {
-    
-}
+a {color: white;}
+a:link {}
+a:hover {color: orange;}
+a:visited {}
